@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Muli&subset=latin,cyrillic);
+
+.main {
+    height: 350px;
+    background-image: linear-gradient(90deg, #eb5e57, #f4cc54);
+    margin-top: 0;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.holder {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1146px;
+    margin: 0 auto;
+
+}
+
+a:link  {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 276px;
+    padding: 45px 0;
+    margin: 0 1%;
+}
+
+a:hover {
+    opacity: 0.3;
+}
+
+a img {
+    margin: auto;
+
+}
+
+.text {
+    color: #f6f6f6;
+    font-size: 46px;
+    font-family: "Muli Black";
+    text-align: center
+}
+
+@media (max-width:640px){
+    a:link {
+        width: 50%;
+        margin: 5px 5px;
+
+    }
+    .holder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 50%;
+
+    }
+    .text {
+        margin-bottom: 10px;
+        overflow-wrap: break-word;
+    }
+    .main{
+        background-image: linear-gradient(180deg, #eb5e57, #f4cc54);
+        height: auto;
+    }
+    a img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 5%;
+    }
+}

@@ -1,0 +1,48 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    color: #1b90cf;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+p {
+    color: #575756;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+a {
+    color: #1b90cf;
+    text-decoration: #1b90cf;
+}
+
+.main {
+    display: inline-block;
+    width: 315px;
+    background-color: #f6f6f6;
+    font-family: Arial;
+}
+
+.text-align {
+    overflow-wrap: break-word;
+    padding: 10px 15px;
+}
+
+.button {
+    display: inline-block;  /* not sure that's correct */
+    vertical-align: top;
+    color: #ffffff;
+    background-color: #1b90cf;
+    padding: 15px 25px;
+    font-weight: 700;
+}
+
+.date {
+    color: #1b90cf;
+    font-size: 12px;
+}

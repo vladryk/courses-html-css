@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800i');
+
+.form{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    /*font-style: ;*/
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#message{
+    min-height: 200px;
+    width: 100%;
+}
+
+.button{
+    border: 0;
+    display: block;
+    float: right;
+    background-color: royalblue;
+    padding: 10px 30px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+span{
+    color: white;
+}
+
+.message{
+    margin-top: 40px;
+}
+
+input{
+    border: 0;
+    background-color: aliceblue;
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+
+textarea{
+    border: 0;
+    background-color: aliceblue;
+}
